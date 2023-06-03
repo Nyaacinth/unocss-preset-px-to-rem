@@ -1,3 +1,3 @@
-# @nyaacinth/unocss-preset-rem-to-px
+# @nyaacinth/unocss-preset-px-to-rem
 
 Coverts px to rem in utils.
