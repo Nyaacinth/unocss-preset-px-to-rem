@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@unocss/core':
-    specifier: '*'
+    specifier: ^0.52.7
     version: 0.52.7
   unbuild:
     specifier: ^1.2.1
