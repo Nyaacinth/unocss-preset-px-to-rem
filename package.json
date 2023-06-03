@@ -1,0 +1,38 @@
+{
+    "name": "@nyaacinth/unocss-preset-rem-to-px",
+    "version": "0.0.1",
+    "description": "Convert all px to rem in utils",
+    "license": "MIT",
+    "homepage": "https://github.com/Nyaacinth/unocss-preset-rem-to-px#readme",
+    "repository": "https://github.com/Nyaacinth/unocss-preset-rem-to-px",
+    "keywords": [
+        "unocss",
+        "unocss-preset"
+    ],
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.cjs",
+            "import": "./dist/index.mjs"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "unbuild",
+        "stub": "unbuild --stub",
+        "publish": "pnpm publish --registry=https://registry.npmjs.org --access public"
+    },
+    "devDependencies": {
+        "@unocss/core": "*",
+        "unbuild": "^1.2.1"
+    },
+    "peerDependencies": {
+        "@unocss/core": "*"
+    }
+}
